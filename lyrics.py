@@ -16,7 +16,6 @@ Mere ache kaam rakhna
 Chitthi taaron mein bhi
 Mera tu salaam rakhna
 
-
 Andhera tera maine le liya
 Mera ujla sitaara tere naam kiya
 
@@ -34,14 +33,12 @@ O piya..
 O piyaa.. piya.. piya..
 O Piyaa.. Oohh..
 
-
 Mm.. mehfil me teri hum naa reh jo
 Gham toh nahi hai, gham toh nahi hai
 Qisse humare nazdeekiyon ke
 Kam to nahi hai, kam to nahi hai
 Kitni dafaa subah ko meri
 Tere aangan mein baithe shaam kiya
-
 
 Channa mereya mereya
 Channa mereya mereya
@@ -52,7 +49,6 @@ Channa mereya mereya
 Channa mereya mereya
 Channa mereya mereya beliya
 O piyaaaaaaaaa..
-
 
 O Piyaa.. piyaa..
 
