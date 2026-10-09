@@ -81,19 +81,13 @@ O Piya..
 def play_lyrics():
     print("\n--- Playing Lyrics ---\n")
     
+    # Text ko bina kisi delay ke seedha line-by-line print karna
     for line in full_lyrics.strip().split('\n'):
-        # Agar line khali hai, toh delay dekar aage badhein
         if line.strip() == "":
             print()
-            time.sleep(0.5)
             continue
             
-        for char in line:
-            sys.stdout.write(char)
-            sys.stdout.flush()
-            time.sleep(0.08)  # Har letter ki typing speed
-        print()
-        time.sleep(1.5)  # Ek line ke baad ka delay
+        print(line)
 
     print("\n--- The End ---\n")
 
