@@ -1,5 +1,5 @@
 import sys
-
+import time
 # Google se "Channa Mereya full lyrics Hinglish" search karein aur baaki ki lines yahan add karein
 full_lyrics = """
 Acha chalta hoon
@@ -81,13 +81,18 @@ O Piya..
 def play_lyrics():
     print("\n--- Playing Lyrics ---\n")
     
-    # Text ko bina kisi delay ke seedha line-by-line print karna
     for line in full_lyrics.strip().split('\n'):
+        # Agar line khali hai toh seedha agli line par jayein, bina ruke
         if line.strip() == "":
             print()
             continue
             
-        print(line)
+        for char in line:
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(0.08)  # Sirf letters ki slow typing yahan chalegi
+        
+        print()  # Line complete hote hi turant agli line shuru hogi (koi delay nahi)
 
     print("\n--- The End ---\n")
 
