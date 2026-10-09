@@ -1,5 +1,4 @@
 import sys
-import time
 
 # Google se "Channa Mereya full lyrics Hinglish" search karein aur baaki ki lines yahan add karein
 full_lyrics = """
